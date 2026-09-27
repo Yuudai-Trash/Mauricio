@@ -73,6 +73,15 @@
     tierrak: { base: '#111827', alt: '#1b64d4', type: 'keeper', trim: '#38e1ff', shorts: '#111827', socks: '#111827', gloves: '#38e1ff' },
     ref: { base: '#16161c', alt: '#c9d2e0', type: 'mirror', trim: '#e9f1ff', shorts: '#16161c', socks: '#16161c' },
     suit: { base: '#1d1f26', alt: '#ffffff', type: 'suit', trim: '#ffffff', shorts: '#1d1f26', socks: '#1d1f26' },
+    mex: { base: '#0f7a3a', alt: '#ffffff', type: 'plain', trim: '#c8102e', shorts: '#ffffff', socks: '#c8102e' },
+    cpvk: { base: '#ff8c1a', alt: '#003893', type: 'keeper', trim: '#003893', shorts: '#003893', socks: '#ff8c1a', gloves: '#ffffff' },
+    trackarg: { base: '#1c2b4b', alt: '#79b6e3', type: 'track', trim: '#ffffff', shorts: '#1c2b4b', socks: '#1c2b4b' },
+    trackdark: { base: '#262a33', alt: '#6b7280', type: 'track', trim: '#9aa3b2', shorts: '#262a33', socks: '#262a33' },
+    trackmex: { base: '#0f6b3a', alt: '#c8102e', type: 'track', trim: '#ffffff', shorts: '#0f6b3a', socks: '#0f6b3a' },
+    trackblk: { base: '#18181b', alt: '#e3262e', type: 'track', trim: '#e3262e', shorts: '#18181b', socks: '#18181b' },
+    sweater: { base: '#4a4d55', alt: '#2f3238', type: 'sweater', trim: '#2f3238', shorts: '#23252b', socks: '#23252b' },
+    suitblk: { base: '#0d0d10', alt: '#0d0d10', type: 'suit', shirt: '#1a1a1f', tie: '#0d0d10', trim: '#333', shorts: '#0d0d10', socks: '#0d0d10' },
+    suitnavy: { base: '#1b2440', alt: '#ffffff', type: 'suit', trim: '#ffffff', shorts: '#1b2440', socks: '#1b2440' },
     casual: { base: '#3a4a5c', alt: '#2a3440', type: 'plain', trim: '#2a3440', shorts: '#22303c', socks: '#dddddd' }
   };
 
@@ -90,6 +99,15 @@
     jaime: { name: 'Jaime Rodrigo', num: 10, skin: '#d49a70', hair: 'wavy', hc: '#241810', eye: '#3a2414', ego: '#ffd400', kit: 'col', face: 'soft' },
     alvaro: { name: 'Julián Álvaro', num: 9, skin: '#e7b48c', hair: 'short', hc: '#2c1d14', eye: '#4a2f1a', ego: '#79b6e3', kit: 'arg', face: 'young' },
     vinicio: { name: 'Vinício Jr.', num: 7, skin: '#6e4630', hair: 'afro', hc: '#120c09', eye: '#2a1a10', ego: '#ffe600', kit: 'bra', face: 'young' },
+    vozinho: { name: 'Vozinho Días', num: 1, skin: '#5e3b27', hair: 'bald', hc: '#1a120c', beard: 'full', bc: '#16100b', eye: '#2a1a10', ego: '#ffb020', kit: 'cpvk', face: 'square' },
+    escalona: { name: 'Lio Escalona', num: 0, skin: '#e6b38e', hair: 'short', hc: '#6b4a2e', beard: 'stubble', bc: '#5a3d26', eye: '#5b3a1e', kit: 'trackarg', face: 'soft', dt: true },
+    guardiolo: { name: 'Pep Guardiolo', num: 0, skin: '#e9be9c', hair: 'bald', hc: '#bdbdbd', beard: 'stubble', bc: '#9a9a9a', eye: '#4a3a2a', kit: 'sweater', face: 'sharp', dt: true, lines: true },
+    mourino: { name: 'José Mouriño', num: 0, skin: '#e2b08c', hair: 'slick', hc: '#9c9c9c', eye: '#3a2a1a', kit: 'suitnavy', face: 'sharp', dt: true, lines: true },
+    simeon: { name: 'Cholo Simeón', num: 0, skin: '#dcaa84', hair: 'slick', hc: '#0e0e10', eye: '#1e140c', kit: 'suitblk', face: 'sharp', dt: true },
+    biela: { name: 'Loco Biela', num: 0, skin: '#e8bd9a', hair: 'short', hc: '#bcbcbc', eye: '#3a4a5a', kit: 'trackdark', face: 'soft', dt: true, glasses: true, lines: true },
+    ancelotta: { name: 'Carlo Ancelotta', num: 0, skin: '#efc6a6', hair: 'short', hc: '#d2d2d2', eye: '#3a3a4a', kit: 'suitnavy', face: 'square', dt: true, brow: 'raise', lines: true },
+    klopf: { name: 'Jürgen Klopf', num: 0, skin: '#f0c7a6', hair: 'cap', hc: '#111111', beard: 'full', bc: '#8a7a68', eye: '#4a6a8a', kit: 'trackblk', face: 'square', dt: true, glasses: true },
+    aguirra: { name: 'Vasco Aguirra', num: 0, skin: '#d7a37c', hair: 'buzz', hc: '#a8a8a8', eye: '#2a1a10', kit: 'trackmex', face: 'square', dt: true, lines: true },
     extra1: { name: 'Jugador', num: 4, skin: '#e0ac86', hair: 'short', hc: '#3a2a1c', eye: '#3a2414', kit: 'casual', face: 'square' },
     extra2: { name: 'Jugador', num: 5, skin: '#7a4d34', hair: 'buzz', hc: '#140e0b', eye: '#2a1a10', kit: 'casual', face: 'soft' },
     extra3: { name: 'Jugador', num: 8, skin: '#f0caa8', hair: 'wavy', hc: '#c8a060', eye: '#3a7bd5', kit: 'casual', face: 'sharp' },
@@ -155,6 +173,12 @@
         front: 'M-56,-4 C-72,-60 -34,-96 0,-96 C34,-96 72,-60 56,-4 L46,-18 C40,-34 22,-40 0,-40 C-22,-40 -40,-34 -46,-18 Z'
       };
       case 'curly': return { back: '', front: '', curly: true };
+      case 'bald': return { back: '', front: '', bald: true };
+      case 'cap': return {
+        back: '',
+        front: 'M-50,-16 C-54,-66 54,-66 50,-16 C20,-24 -20,-24 -50,-16 Z',
+        visor: 'M-50,-18 C-24,-30 40,-30 76,-12 L70,-4 C40,-18 -24,-18 -50,-10 Z'
+      };
       default: return { back: '', front: '' };
     }
   }
@@ -235,7 +259,8 @@
   }
 
   function brow(ctx, o, cx, flip, color) {
-    const b = BROWS[o.e || 'n'] || BROWS.n;
+    let b = BROWS[o.e || 'n'] || BROWS.n;
+    if (o.raise && flip) b = [b[0] - 9, b[1] - 12, b[2] - 8];
     const s = flip ? -1 : 1;
     const d = `M-12,${b[0]} Q0,${b[1]} 13,${b[2]}`;
     return `<g transform="translate(${cx},6) scale(${s},1)">${P(d, null, color, 4.4 * ctx.lw)}</g>`;
@@ -306,7 +331,7 @@
       if (ch.beard === 'full') g += P('M-13,33 Q0,27 13,33 Q0,31 -13,33 Z', bc, bc, 2.5);
     }
     // rasgos
-    const eo = { e: o.e, eye: ch.eye, ego: o.egoC || ch.ego, lx, skinC: skinFlat, mirror };
+    const eo = { e: o.e, eye: ch.eye, ego: o.egoC || ch.ego, lx, skinC: skinFlat, mirror, raise: ch.brow === 'raise' };
     if (mirror) {
       g += `<g transform="translate(${lx},0)">${eye(ctx, eo, 19, false)}${eye(ctx, eo, -19, true)}</g>`;
     } else {
@@ -333,6 +358,12 @@
       if (hp.shine && !stone) g += P(hp.shine, null, light(m(ch.hc || '#222'), 0.35), 2, 'opacity=".7"');
       if (hp.top) g += P(hp.top, stone ? '#6e685f' : m(ch.hc2 || '#eee'), ink, 2.4 * lw);
       if (ch.hair === 'mesias') g += P('M-46,-8 L-42,-8 L-42,16 L-46,12 Z', hairC);
+    }
+    if (hp.bald && !mirror) g += P('M-26,-42 C-12,-50 8,-50 22,-44', null, '#ffffff', 3, 'opacity=".45"') + P('M-44,-8 L-44,10 M44,-8 L44,10', null, dark(skinFlat, 0.4), 1);
+    if (hp.visor) g += P(hp.visor, stone ? '#4d4740' : m(ch.hc), ink, 2.2 * lw) + `<circle cx="0" cy="-52" r="3" fill="${ink}"/>`;
+    if (ch.glasses && !mirror) {
+      const gc = stone ? '#3a3530' : '#1a1a1a';
+      g += `<g transform="translate(${lx},0)"><rect x="3" y="-6" width="34" height="24" rx="7" fill="#cfe6ff" fill-opacity=".18" stroke="${gc}" stroke-width="${2.6 * lw}"/><rect x="-37" y="-6" width="34" height="24" rx="7" fill="#cfe6ff" fill-opacity=".18" stroke="${gc}" stroke-width="${2.6 * lw}"/>${P('M-3,2 Q0,-2 3,2', null, gc, 2.4 * lw)}${P('M8,-2 L16,-4', null, '#fff', 2, 'opacity=".7"')}</g>`;
     }
     if (ch.band && !mirror) g += P('M-49,-30 C-20,-40 20,-40 49,-30 L49,-21 C20,-31 -20,-31 -49,-21 Z', m(ch.band), ink, 1.8 * lw);
     if (mirror) g += P('M-30,-40 C-10,-50 20,-48 34,-36', null, '#ffffff', 3, 'opacity=".6"');
@@ -365,13 +396,15 @@
     if (k.type === 'keeper' && !stone) g += P('M-120,110 L-20,80 L-10,170 L-120,170 Z', alt, null, 0, 'opacity=".55"');
     if (k.type === 'team' && !stone) g += P('M-120,70 L-60,70 L-40,170 L-120,170 Z', alt, null, 0, 'opacity=".6"');
     if (k.type === 'mirror' || mirror) g += P('M-60,60 L-20,170 M30,60 L70,170 M-110,120 L110,110', null, '#d7e6ff', 1.4, 'opacity=".45"');
-    if (k.type === 'suit') g += P('M-20,46 L0,120 L20,46 L10,46 L0,70 L-10,46 Z', '#fff') + P('M-6,70 L0,64 L6,70 L2,120 L-2,120 Z', m('#b3121e'));
+    if (k.type === 'suit') g += P('M-22,46 L0,124 L22,46 Z', m(k.shirt || '#ffffff')) + P('M-6,56 L0,50 L6,56 L3,118 L0,124 L-3,118 Z', m(k.tie || '#b3121e')) + P('M-22,46 L-6,100 L-40,70 Z M22,46 L6,100 L40,70 Z', dark(base, 0.25), ink, 1.4 * lw);
+    if (k.type === 'track' && !stone) g += P('M0,50 L0,170', null, trim, 3) + P('M-104,96 L-70,70 M104,96 L70,70', null, alt, 9) + P('M-24,46 L-20,60 L20,60 L24,46', null, alt, 5);
+    if (k.type === 'sweater' && !stone) g += P('M-24,48 Q0,90 24,48', dark(base, 0.3), ink, 1.4) + P('M-10,52 L0,60 L10,52 L10,90 L-10,90 Z', m('#ffffff'));
     g += P('M60,74 C80,90 96,112 104,150', null, dark(base, 0.35), 5, 'opacity=".45"');
     g += '</g>';
     // cuello de la camiseta
-    if (k.type !== 'suit') g += P('M-22,48 Q0,74 22,48', null, trim, 7) + P('M-22,48 Q0,74 22,48', null, ink, 1.2 * lw);
+    if (k.type !== 'suit' && k.type !== 'track' && k.type !== 'sweater') g += P('M-22,48 Q0,74 22,48', null, trim, 7) + P('M-22,48 Q0,74 22,48', null, ink, 1.2 * lw);
     const num = o.num != null ? o.num : ch.num;
-    if (num && !mirror && !stone && k.type !== 'suit' && k.type !== 'bib') g += `<text x="44" y="136" font-family="Bangers, Impact, sans-serif" font-size="30" fill="${trim}" stroke="${ink}" stroke-width=".8" text-anchor="middle">${num}</text>`;
+    if (num && !mirror && !stone && !['suit', 'bib', 'track', 'sweater'].includes(k.type)) g += `<text x="44" y="136" font-family="Bangers, Impact, sans-serif" font-size="30" fill="${trim}" stroke="${ink}" stroke-width=".8" text-anchor="middle">${num}</text>`;
     if (k.type === 'bib' && !stone) g += `<text x="0" y="140" font-family="Bangers, Impact, sans-serif" font-size="40" fill="#1a1a1a" text-anchor="middle">${o.num || 100}</text>`;
     if (k.type === 'earth' && !stone) g += `<circle cx="-46" cy="112" r="11" fill="${m('#1b64d4')}" stroke="${ink}" stroke-width="1.4"/><path d="M-52,106 q6,2 4,8 q6,0 8,6" fill="none" stroke="${m('#2bb34b')}" stroke-width="3"/>`;
     if (o.arm) g += P('M-104,110 L-86,92 L-80,120 L-98,138 Z', m('#ffd400'), ink, 1.6 * lw) + `<text x="-92" y="120" font-family="Bangers" font-size="14" text-anchor="middle" fill="#111">C</text>`;
@@ -439,7 +472,8 @@
     const skin = stone ? '#8d877d' : mirror ? '#b9c3d3' : m(ch.skin);
     const boot = stone ? '#4d4740' : mirror ? '#e9eef7' : m(o.boot || '#111111');
     const glove = k.gloves ? (stone ? '#9a948a' : m(k.gloves)) : null;
-    const keeper = k.type === 'keeper';
+    const keeper = k.type === 'keeper' || ['suit', 'track', 'sweater'].includes(k.type);
+    const longPants = ['suit', 'track', 'sweater'].includes(k.type);
     const W = 2 * 1.3 * lw;
     const seg = (a, b, w, c) => [`<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="${ink}" stroke-width="${r2(w + W * 2)}" stroke-linecap="round"/>`, `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="${c}" stroke-width="${w}" stroke-linecap="round"/>`];
     const midp = (a, b, t) => [r2(a[0] + (b[0] - a[0]) * t), r2(a[1] + (b[1] - a[1]) * t)];
@@ -452,14 +486,14 @@
       const sl = midp(s, e, 0.6);
       const parts = keeper ? [[s, e, 10, jersey], [e, h, 9, jersey]] : [[s, sl, 11, jersey], [sl, e, 9, skin], [e, h, 8, skin]];
       let g = limb(parts, far);
-      const hc = glove ? (far ? dark(glove, 0.2) : glove) : far ? dark(skin, 0.22) : skin;
+ const hc = glove ? (far ? dark(glove, 0.2) : glove) : far ? dark(skin, 0.22) : skin;
       g += `<circle cx="${h[0]}" cy="${h[1]}" r="${glove ? 7.5 : 5.2}" fill="${hc}" stroke="${ink}" stroke-width="${W}"/>`;
       return g;
     };
     const leg = (p, kn, f, far) => {
       const th = midp(p, kn, 0.55);
       const sk = midp(kn, f, 0.15);
-      let g = limb([[p, th, 15, shorts], [th, kn, 12, skin], [kn, sk, 11, socks], [sk, f, 10, socks]], far);
+      let g = limb(longPants ? [[p, kn, 14, shorts], [kn, f, 12, shorts]] : [[p, th, 15, shorts], [th, kn, 12, skin], [kn, sk, 11, socks], [sk, f, 10, socks]], far);
       const dir = f[0] - kn[0] >= 0 ? 1 : -1;
       const bc = far ? dark(boot, 0.2) : boot;
       g += `<ellipse cx="${r2(f[0] + dir * 5)}" cy="${f[1] + 1}" rx="10" ry="5.5" fill="${bc}" stroke="${ink}" stroke-width="${W}" transform="rotate(${r2(Math.atan2(f[1] - kn[1], f[0] - kn[0]) * 57.3 - 90 * dir)},${f[0]},${f[1]})"/>`;
@@ -613,7 +647,7 @@
     const w = txt.length * 30 + 40;
     let g = `<rect x="${-w / 2}" y="-44" width="${w}" height="88" rx="10" fill="#07060c" stroke="${c}" stroke-width="3" opacity=".92"/>`;
     g += `<rect x="${-w / 2}" y="-44" width="${w}" height="88" rx="10" fill="none" stroke="${c}" stroke-width="12" opacity=".2"/>`;
-    g += `<text x="0" y="22" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="58" fill="${c}" letter-spacing="2">${txt}</text>`;
+    g += `<text x="0" y="22" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="58" fill="${c}" textLength="${w - 44}" lengthAdjust="spacingAndGlyphs">${txt}</text>`;
     if (o.label) g += `<text x="0" y="-54" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="20" fill="${c}">${o.label}</text>`;
     return g;
   }
@@ -648,6 +682,85 @@
       g += `<line x1="${cx - w / 4}" y1="${y - d / 2}" x2="${cx + w / 4}" y2="${y + d / 2}" stroke="#ffffff" stroke-width="1" opacity=".45"/>`;
       if (i % 3 === 1) g += `<line x1="${cx - w * 0.3}" y1="${y}" x2="${cx - w * 0.3}" y2="${y - H * 0.1}" stroke="${c}" stroke-width="${6 - t * 3}" opacity=".25"/><line x1="${cx + w * 0.28}" y1="${y}" x2="${cx + w * 0.28}" y2="${y - H * 0.1}" stroke="${c}" stroke-width="${6 - t * 3}" opacity=".25"/>`;
     }
+    return g;
+  }
+
+  // ---------- la torre de anillos (Estadio Cero visto desde la Tierra) ----------
+  function tower(ctx, W, H, o) {
+    const m = ctx.m;
+    const c = o.c || ctx.acc || '#39f3ff';
+    let g = `<rect width="${W}" height="${H}" fill="${grad(ctx, '#03020c', m(o.low || '#ff9a6a'), true, m('#0d2260'))}"/>`;
+    g += stars(W, H * 0.55, o.seed || 5, 160);
+    const cx = W * (o.cx != null ? o.cx / 100 : 0.5);
+    const baseY = H * (o.base != null ? o.base / 100 : 0.86), topY = H * 0.04;
+    // volcanes y ciudad
+    g += P(`M${-W * 0.05},${baseY + H * 0.02} L${W * 0.14},${baseY - H * 0.13} L${W * 0.2},${baseY - H * 0.11} L${W * 0.34},${baseY + H * 0.02} Z`, m('#3a3f66'));
+    g += P(`M${W * 0.1},${baseY - H * 0.105} L${W * 0.14},${baseY - H * 0.13} L${W * 0.17},${baseY - H * 0.116} L${W * 0.15},${baseY - H * 0.1} Z`, '#f2f4ff', null, 0, 'opacity=".85"');
+    g += P(`M${W * 0.62},${baseY + H * 0.02} L${W * 0.8},${baseY - H * 0.1} L${W * 0.9},${baseY - H * 0.09} L${W * 1.05},${baseY + H * 0.02} Z`, m('#343a60'));
+    const r = rng(o.seed || 8);
+    let x = 0;
+    while (x < W) {
+      const w = W * (0.02 + r() * 0.04), h = H * (0.02 + r() * 0.06);
+      g += `<rect x="${r2(x)}" y="${r2(baseY - h + H * 0.03)}" width="${r2(w)}" height="${r2(h + H * 0.2)}" fill="${m('#141a33')}"/>`;
+      for (let k = 0; k < 3; k++) if (r() < 0.6) g += `<rect x="${r2(x + w * 0.3)}" y="${r2(baseY - h + H * 0.035 + k * H * 0.012)}" width="${r2(w * 0.2)}" height="${r2(H * 0.005)}" fill="#ffd97a" opacity=".8"/>`;
+      x += w + 2;
+    }
+    // haz central
+    g += `<polygon points="${cx - W * 0.03},${topY} ${cx + W * 0.03},${topY} ${cx + W * 0.16},${baseY} ${cx - W * 0.16},${baseY}" fill="${c}" opacity=".13"/>`;
+    g += `<polygon points="${cx - W * 0.008},${topY} ${cx + W * 0.008},${topY} ${cx + W * 0.04},${baseY} ${cx - W * 0.04},${baseY}" fill="#ffffff" opacity=".35"/>`;
+    const N = o.n || 25;
+    const grass = m('#23a04f');
+    for (let i = N - 1; i >= 0; i--) {
+      const f = Math.pow(0.9, i);
+      const y = topY + (baseY - H * 0.06 - topY) * f;
+      const rx = W * 0.44 * (0.28 + 0.72 * f), ry = rx * 0.17;
+      const op = 0.55 + 0.45 * f;
+      g += `<ellipse cx="${cx}" cy="${r2(y + ry * 0.35)}" rx="${r2(rx)}" ry="${r2(ry)}" fill="${dark(c, 0.75)}" opacity="${r2(op)}"/>`;
+      g += `<ellipse cx="${cx}" cy="${r2(y)}" rx="${r2(rx)}" ry="${r2(ry)}" fill="${mix(grass, '#0a1030', 0.55 - 0.45 * f)}" stroke="${c}" stroke-width="${r2(1 + 3 * f)}" opacity="${r2(op)}"/>`;
+      g += `<ellipse cx="${cx}" cy="${r2(y)}" rx="${r2(rx * 0.55)}" ry="${r2(ry * 0.55)}" fill="none" stroke="#ffffff" stroke-width="${r2(0.5 + f)}" opacity="${r2(0.5 * op)}"/>`;
+      g += `<ellipse cx="${cx}" cy="${r2(y)}" rx="${r2(rx * 1.04)}" ry="${r2(ry * 1.3)}" fill="none" stroke="${c}" stroke-width="${r2(6 * f + 1)}" opacity=".18"/>`;
+      if (o.labels && (i === N - 1 || i === 12)) g += `<text x="${r2(cx + rx + 10)}" y="${r2(y + 5)}" font-family="'Share Tech Mono', monospace" font-size="${r2(10 + 12 * f)}" fill="${c}">ANILLO ${i + 1}</text>`;
+    }
+    // nubes cruzando los primeros anillos
+    for (let i = 0; i < 6; i++) g += `<ellipse cx="${r2(W * (0.1 + r() * 0.8))}" cy="${r2(baseY - H * (0.14 + r() * 0.06))}" rx="${r2(W * (0.12 + r() * 0.12))}" ry="${r2(H * 0.012)}" fill="#ffffff" opacity=".22"/>`;
+    // Estadio Coloso
+    g += `<ellipse cx="${cx}" cy="${baseY}" rx="${W * 0.2}" ry="${H * 0.03}" fill="${m('#8a8fa8')}" stroke="${ctx.ink}" stroke-width="2"/>`;
+    g += `<ellipse cx="${cx}" cy="${baseY - H * 0.004}" rx="${W * 0.15}" ry="${H * 0.02}" fill="${grass}"/>`;
+    g += `<ellipse cx="${cx}" cy="${baseY - H * 0.004}" rx="${W * 0.15}" ry="${H * 0.02}" fill="${c}" opacity=".35"/>`;
+    return g;
+  }
+  function waves(ctx, o) {
+    const c = o.c || ctx.acc;
+    let g = '';
+    for (let i = 0; i < 6; i++) g += `<circle r="${110 + i * 26}" fill="none" stroke="${c}" stroke-width="${4 - i * 0.5}" opacity="${r2(0.8 - i * 0.12)}" stroke-dasharray="${i % 2 ? '10 8' : '30 6'}"/>`;
+    return g;
+  }
+  function mic(ctx, o) {
+    const on = o.on !== false;
+    let g = P('M0,0 L0,-70 M-24,0 L24,0', null, ctx.ink, 6) + P('M0,0 L0,-70', null, ctx.m('#555a66'), 3);
+    g += `<rect x="-11" y="-100" width="22" height="34" rx="11" fill="${ctx.m('#2a2d36')}" stroke="${ctx.ink}" stroke-width="2.5"/>`;
+    g += P('M-9,-92 L9,-92 M-9,-86 L9,-86 M-9,-80 L9,-80', null, ctx.m('#8a8f9c'), 1.4);
+    if (on) g += `<circle cx="0" cy="-108" r="5" fill="#ff2233"/><circle cx="0" cy="-108" r="12" fill="#ff2233" opacity=".3"/>`;
+    return g;
+  }
+  function cooler(ctx) {
+    return `<rect x="-30" y="-36" width="60" height="36" rx="4" fill="${ctx.m('#e8eef5')}" stroke="${ctx.ink}" stroke-width="2.5"/><rect x="-30" y="-36" width="60" height="10" rx="3" fill="${ctx.m('#1f6fe0')}" stroke="${ctx.ink}" stroke-width="2.5"/>${P('M-14,-36 Q0,-48 14,-36', null, ctx.ink, 3)}`;
+  }
+  function board(ctx) {
+    let g = `<rect x="-70" y="-100" width="140" height="90" fill="#f7f9fb" stroke="${ctx.ink}" stroke-width="3"/>`;
+    g += P('M-40,-80 L-10,-60 L20,-70 L40,-40 M-50,-40 L-20,-50', null, '#1f6fe0', 2.4) + P('M40,-40 l-8,0 m8,0 l-2,-8', null, '#1f6fe0', 2.4);
+    g += `<text x="-42" y="-70" font-family="Bangers" font-size="14" fill="#e3262e">X</text><text x="10" y="-30" font-family="Bangers" font-size="14" fill="#e3262e">O O</text>`;
+    g += P('M-60,-10 L-60,20 M60,-10 L60,20', null, ctx.ink, 3);
+    return g;
+  }
+  function screen(ctx, W, H, e) {
+    const x = W * (e.x || 0) / 100, y = H * (e.y || 0) / 100, w = W * (e.w || 40) / 100, h = H * (e.h || 30) / 100;
+    let g = `<rect x="${r2(x - 8)}" y="${r2(y - 8)}" width="${r2(w + 16)}" height="${r2(h + 16)}" rx="6" fill="#0b0c10" stroke="${ctx.ink}" stroke-width="3"/>`;
+    g += `<rect x="${r2(x - 20)}" y="${r2(y - 20)}" width="${r2(w + 40)}" height="${r2(h + 40)}" rx="10" fill="${e.glow || '#8fd8ff'}" opacity=".12"/>`;
+    if (e.sub) g += render(e.sub, Math.round(w), Math.round(h)).replace('<svg ', `<svg x="${r2(x)}" y="${r2(y)}" width="${r2(w)}" height="${r2(h)}" `);
+    g += `<polygon points="${r2(x)},${r2(y)} ${r2(x + w * 0.4)},${r2(y)} ${r2(x + w * 0.1)},${r2(y + h)} ${r2(x)},${r2(y + h)}" fill="#ffffff" opacity=".07"/>`;
+    if (e.live) g += `<rect x="${r2(x + 10)}" y="${r2(y + 10)}" width="70" height="24" fill="#e3262e"/><text x="${r2(x + 45)}" y="${r2(y + 28)}" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="17" fill="#fff">${e.live === true ? 'EN VIVO' : e.live}</text>`;
+    if (e.leg) g += `<line x1="${r2(x + w / 2)}" y1="${r2(y + h + 8)}" x2="${r2(x + w / 2)}" y2="${r2(H)}" stroke="#0b0c10" stroke-width="${r2(w * 0.04)}"/>`;
     return g;
   }
 
@@ -785,8 +898,33 @@
       }
       case 'earthview':
         g += background(ctx, W, H, 'space', o);
-        g += `<g transform="translate(${W * (o.ex || 50) / 100},${H * (o.ey || 110) / 100}) scale(${(Math.max(W, H) / 150) * (o.es || 1)})">${earth(ctx, o)}</g>`;
+        g += `<g transform="translate(${W * (o.ex || 50) / 100},${H * (o.ey || 110) / 100}) scale(${(Math.max(W, H) / 150) * (o.es || 1)})">${o.waves ? waves(ctx, { c: o.wc || '#39f3ff' }) : ''}${earth(ctx, o)}</g>`;
         return g;
+      case 'tower': return tower(ctx, W, H, o);
+      case 'pecera': {
+        g += background(ctx, W, H, 'space', o);
+        g += `<g opacity=".6">${stadiumStack(ctx, W, H, { n: 6, cx: 75, c: '#39f3ff' })}</g>`;
+        g += `<rect width="${W}" height="${H}" fill="${m('#0c1426')}" opacity=".45"/>`;
+        for (let x = 0; x < W; x += W / 4) g += `<rect x="${r2(x)}" y="0" width="${r2(W * 0.012)}" height="${H}" fill="${m('#3a4660')}"/>`;
+        g += P(`M${W * 0.1},0 L${W * 0.3},${H} M${W * 0.18},0 L${W * 0.34},${H} M${W * 0.6},0 L${W * 0.72},${H * 0.6}`, null, '#ffffff', 3, 'opacity=".08"');
+        g += `<rect x="0" y="${H * 0.82}" width="${W}" height="${H * 0.18}" fill="${m('#2a3040')}" stroke="${ctx.ink}" stroke-width="3"/>`;
+        g += `<rect x="0" y="${H * 0.82}" width="${W}" height="${H * 0.02}" fill="${m('#39f3ff')}" opacity=".35"/>`;
+        return g;
+      }
+      case 'plaza': {
+        g += `<rect width="${W}" height="${H}" fill="${grad(ctx, m('#0a0f28'), m(o.low || '#2c2350'), true)}"/>`;
+        g += stars(W, H * 0.4, o.seed, 40);
+        const r = rng(o.seed || 12);
+        let x = -10;
+        while (x < W) {
+          const w = W * (0.06 + r() * 0.1), h = H * (0.3 + r() * 0.35);
+          g += `<rect x="${r2(x)}" y="${r2(H * 0.85 - h)}" width="${r2(w)}" height="${r2(h)}" fill="${m('#161b33')}" stroke="${m('#0a0d1c')}" stroke-width="2"/>`;
+          for (let yy = H * 0.85 - h + 10; yy < H * 0.84; yy += 16) for (let xx = x + 6; xx < x + w - 8; xx += 14) if (r() < 0.35) g += `<rect x="${r2(xx)}" y="${r2(yy)}" width="6" height="8" fill="#ffd97a" opacity=".7"/>`;
+          x += w + 4;
+        }
+        g += `<rect x="0" y="${H * 0.85}" width="${W}" height="${H * 0.15}" fill="${m('#101322')}"/>`;
+        return g;
+      }
       case 'rain':
         g += `<rect width="${W}" height="${H}" fill="${grad(ctx, m('#2c3444'), m('#556070'), true)}"/>`;
         for (let i = 0; i < 70; i++) { const r = rng(i + 3); const x = r() * W, y = r() * H; g += `<line x1="${r2(x)}" y1="${r2(y)}" x2="${r2(x - 8)}" y2="${r2(y + 30)}" stroke="#cfe0f5" stroke-width="1.2" opacity=".5"/>`; }
@@ -970,13 +1108,19 @@
       case 'head': scale = (H * (e.s || 0.6)) / 120; inner = head(ctx, ch, e); break;
       case 'eyes': {
         // primer plano extremo de ojos: se recorta a una franja
-        scale = (W * (e.s || 1)) / 110;
+        scale = Math.max((W * (e.s || 1)) / 110, H / ((e.band || 44) - 4));
         const clip = uid('ey');
         ctx.defs.push(`<clipPath id="${clip}"><rect x="-60" y="-24" width="120" height="${e.band || 44}"/></clipPath>`);
         inner = `<g clip-path="url(#${clip})"><rect x="-60" y="-24" width="120" height="60" fill="${ctx.m(ch.skin)}"/>${head(ctx, ch, e)}</g>`;
         break;
       }
-      case 'fig': scale = (H * (e.s || 0.6)) / 140; inner = fig(ctx, ch, e); break;
+      case 'fig': scale = (H * (e.s || 0.6)) / 140; inner = `<g transform="translate(0,${e.hip ? 0 : -52})">${fig(ctx, ch, e)}</g>`; break;
+      case 'mic': scale = (H * (e.s || 0.4)) / 100; inner = mic(ctx, e); break;
+      case 'cooler': scale = (H * (e.s || 0.2)) / 40; inner = cooler(ctx, e); break;
+      case 'screen': return screen(ctx, W, H, e);
+      case 'tower': return tower(ctx, W, H, e);
+      case 'waves': scale = (Math.min(W, H) * (e.s || 0.5)) / 200; inner = waves(ctx, e); break;
+      case 'board': scale = (H * (e.s || 0.4)) / 100; inner = board(ctx, e); break;
       case 'ball': scale = (H * (e.s || 0.08)) / 20; inner = ball(ctx, e); break;
       case 'goal': scale = (W * (e.s || 0.6)) / 240; inner = goal(ctx, e); break;
       case 'arbitro': scale = (Math.min(W, H) * (e.s || 0.8)) / 320; inner = arbitro(ctx, e); break;
