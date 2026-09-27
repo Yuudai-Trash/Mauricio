@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Estadio Cero</title>
+  <meta name="description" content="Cómic de ciencia ficción futbolera: 100 jugadores, 24 horas y un planeta en juego. Lectura por páginas o en cascada.">
+  <meta name="theme-color" content="#07060c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307060c'/%3E%3Cpath d='M8 32 Q32 12 56 32 Q32 52 8 32Z' fill='none' stroke='%23ffb020' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='9' fill='%23ffb020'/%3E%3Ccircle cx='32' cy='32' r='3.5' fill='%2307060c'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital,wght@0,400;0,700;1,700&family=Share+Tech+Mono&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="bar" id="bar">
+    <a class="logo" href="#/" aria-label="Inicio">
+      <span class="logo-eye" aria-hidden="true"></span>ESTADIO CERO
+    </a>
+    <nav class="bar-actions">
+      <button class="btn ghost" id="btnChapters" type="button" aria-haspopup="dialog" aria-label="Capítulos"><span class="ico" aria-hidden="true">☰</span><span class="lbl">Capítulos</span></button>
+      <div class="seg" role="group" aria-label="Formato de lectura">
+        <button type="button" data-mode="paginas" class="seg-btn">Páginas</button>
+        <button type="button" data-mode="cascada" class="seg-btn">Cascada</button>
+      </div>
+    </nav>
+    <div class="progress" aria-hidden="true"><span id="progressFill"></span></div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Índice de capítulos" hidden>
+    <div class="drawer-panel">
+      <div class="drawer-head">
+        <h2>Capítulos</h2>
+        <button class="btn icon" id="drawerClose" type="button" aria-label="Cerrar">✕</button>
+      </div>
+      <ol class="toc" id="drawerToc"></ol>
+    </div>
+  </div>
+
+  <div class="zoom" id="zoom" role="dialog" aria-modal="true" aria-label="Viñeta ampliada" hidden>
+    <button class="btn icon zoom-close" id="zoomClose" type="button" aria-label="Cerrar">✕</button>
+    <button class="zoom-nav prev" id="zoomPrev" type="button" aria-label="Viñeta anterior">‹</button>
+    <div class="zoom-stage" id="zoomStage"></div>
+    <button class="zoom-nav next" id="zoomNext" type="button" aria-label="Viñeta siguiente">›</button>
+  </div>
+
+  <script src="js/art.js"></script>
+  <script src="js/story.js"></script>
+  <script src="js/reader.js"></script>
+</body>
+</html>

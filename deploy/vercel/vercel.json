@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/js/:file", "destination": "https://cdn.jsdelivr.net/gh/Yuudai-Trash/Mauricio@d9a4f952f1438faf0d8f8d553d16f4161b0edbc5/js/:file" },
+    { "source": "/css/:file", "destination": "https://cdn.jsdelivr.net/gh/Yuudai-Trash/Mauricio@d9a4f952f1438faf0d8f8d553d16f4161b0edbc5/css/:file" }
+  ]
+}
